@@ -30,7 +30,6 @@ export default class App extends Component {
 
         <Router>
           <Header />
-
           <DashMenu />
           <div className='display'>
             <Switch>

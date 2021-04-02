@@ -8,12 +8,15 @@
 }
 .menu-icon{
   background-color: rgba(0, 0, 0, .5);
-color:white
+color:white;
+margin-top: 15px;
+
 }
 
 .display{
   display: flex;
   justify-content: center;
+
 }
 
 .main{
@@ -92,7 +95,7 @@ margin-bottom: 100px;
 
 .tips{
   background-color: rgba(0, 0, 0, .5);
-  height: max-content;
+  height: auto;
   width: 700px;
   margin-top: 50px;
   color: white;
