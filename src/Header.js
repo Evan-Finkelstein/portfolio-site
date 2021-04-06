@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import './App.css';
-import { Link } from 'react-router-dom'
-
 
 
 
@@ -23,7 +21,10 @@ export default class Header extends Component {
             <div >
 
                 <div className='header'>
-                    <div>Westbrook Community Garden</div>
+                    <div>Westbrook Community Garden
+                    {/* <DashMenu /> */}
+                    </div>
+
                     {/* <div>
                         {!this.state.open ? <div onClick={(e) => this.togglePanel(e)} className='menu'><span className='menu-icon'>Menu</span></div>
                             : <div onClick={(e) => this.togglePanel(e)} className='menu'><span className='menu-icon'>Close</span></div>}
