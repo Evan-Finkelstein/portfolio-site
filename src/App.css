@@ -4,12 +4,16 @@
   display: flex;
   justify-content: space-around;
   top: 0;
+  
+  
 
 }
 .menu-icon{
   background-color: rgba(0, 0, 0, .5);
 color:white;
 margin-top: 15px;
+padding: 8px;
+
 
 }
 
@@ -17,12 +21,19 @@ margin-top: 15px;
   display: flex;
   justify-content: center;
 
+  
+
+}
+.hyperlink{
+  color: gold
 }
 
 .main{
   background-image: url('./assets/background.png');
   height: max-content;
   background-size: cover;
+  border: solid black 1px;
+
   
 
 }
@@ -38,6 +49,9 @@ a{
   justify-content: space-around;
   top: 0;
   background-color: rgba(0, 0, 0, .5);
+  height:25px;
+  padding-top: 5px;
+
   
 
  
@@ -46,13 +60,15 @@ a{
 .landing{
   background-color: rgba(0, 0, 0, .5);
   height:800px;
-  width: 700px;
+  width: 1000px;
   margin-top: 50px;
   color: white;
   display: flex;
 justify-content: center;
 text-align: center;
 margin-bottom: 100px;
+border: solid black 1px;
+
 
 }
 
@@ -89,7 +105,9 @@ margin-bottom: 100px;
 
 .landing_img{
   margin-top:200px;
-  width: 110%
+  width: 95%;
+  margin: 5px;
+  border: solid black 1px;
   
 }
 
