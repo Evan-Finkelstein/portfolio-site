@@ -74,6 +74,7 @@ margin-bottom: 100px;
 border: solid black 1px;
 
 
+
 }
 
 .footer {
@@ -82,7 +83,7 @@ border: solid black 1px;
   width: 100%;
   height: 1.2em;
   padding: .7em;
-  background-color: #747487;
+  background-color: rgba(63, 63, 63, 0.9);
   text-align: center;
   font-size: 1em;
   
@@ -93,7 +94,8 @@ border: solid black 1px;
   width: 100%;
   height: 1.2em;
   padding: .7em;
-  background-color: #747487;
+  background-color: rgba(63, 63, 63, 0.9);
+  color: white;
   text-align: center;
   font-size: 1.7em;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
