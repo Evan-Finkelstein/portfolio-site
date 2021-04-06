@@ -6,7 +6,7 @@ export default class Landing extends Component {
         return (
             <div className='landing'>
                 <div>
-                    <p>Welcome to Westbrook Community Garden!</p>
+                    <h2>Welcome to Westbrook Community Garden!</h2>
                     <img className='landing_img' src='Garden1.jpeg' alt='garden' />
                 </div>
             </div>
